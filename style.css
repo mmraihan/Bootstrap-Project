@@ -22,3 +22,20 @@ body{
     width: 100%;
     min-height: 900px;
 }
+
+#home-section .home-inner{
+    padding-top: 140px;
+}
+
+#home-section .card-form{
+    opacity: 0.8;
+
+}
+
+.fa{
+    color: rgb(82, 137, 238);
+    background-color: black;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 30px;
+}
