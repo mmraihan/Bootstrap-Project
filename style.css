@@ -1,0 +1,8 @@
+body{
+    background-color: black;
+    color: blanchedalmond; /* Text */
+}
+.navbar{
+    border-bottom: cornflowerblue 1px solid;
+    opacity: 1;
+}
