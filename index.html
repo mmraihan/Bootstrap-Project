@@ -15,8 +15,11 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-  <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/d2862ee6e4.js" crossorigin="anonymous"></script>
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/d2862ee6e4.js"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css" />
@@ -24,170 +27,231 @@
     <title>Social App</title>
   </head>
   <body id="home">
+    <!---------------------------------------- NavBar----------------------------------------------------------- -->
 
-   <!---------------------------------------- NavBar----------------------------------------------------------- -->
-
-    
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top"> <!--Fixed Top= Navbar Fixed-->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+      <!--Fixed Top= Navbar Fixed-->
       <div class="container">
-
-
-      
-      <a class="navbar-brand" href="#">Social App</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">  <!--Id must be same Navbar=Responsive-->
-        <ul class="navbar-nav ml-auto">   <!--ml-auto= right side-->
-          <li class="nav-item active">
-            <a class="nav-link" href="#"
-              >Home <span class="sr-only">(current)</span></a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Explore</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Create</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Share</a>
-          </li>
-         
-        </ul>
+        <a class="navbar-brand" href="#">Social App</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <!--Id must be same Navbar=Responsive-->
+          <ul class="navbar-nav ml-auto">
+            <!--ml-auto= right side-->
+            <li class="nav-item active">
+              <a class="nav-link" href="#home">Home </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#explore-head-section">Explore</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#create-head-section">Create</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#share-head-section">Share</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
     </nav>
 
- <!---------------------------------------- Home Section----------------------------------------------------------- -->
+    <!---------------------------------------- Home Section----------------------------------------------------------- -->
+
+    <section id="home-section">
+      <div class="dark-overlay">
+        <!--Out of bootstrap class-->
+        <div class="home-inner">
+          <!--out of bootstrap class for Using Padding Top-->
+
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 d-none d-lg-block">
+                <!--Block for Mobile device -->
+                <h1 class="display-4">
+                  Build <strong>Social Profiles</strong> and gain revenue and
+                  <strong>profilse</strong>
+                </h1>
+
+                <div class="d-flex flex-row">
+                  <div class="align-self-start p-4">
+                    <!--p-4 =Padding -->
+                    <i class="fa fa-check"></i>
+                  </div>
+
+                  <div class="align-self-end p-4">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </div>
+                </div>
+                <div class="d-flex flex-row">
+                  <div class="align-self-start p-4">
+                    <!--p-4 =Padding -->
+                    <i class="fa fa-check"></i>
+                  </div>
+
+                  <div class="align-self-end p-4">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </div>
+                </div>
+                <div class="d-flex flex-row">
+                  <div class="align-self-start p-4">
+                    <!--p-4 =Padding -->
+                    <i class="fa fa-check"></i>
+                  </div>
+
+                  <div class="align-self-end p-4">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4">
+                <div class="card bg-primary text-center card-form">
+                  <!--CSS Class= Card Form for using opacity-->
+                  <div class="card-body">
+                    <h3>Sign Up Today</h3>
+                    <p>Plsease fill out this form to register</p>
+
+                    <form action="">
+                      <div class="form-group">
+                        <input
+                          class="form-control form-control-lg"
+                          type="text"
+                          placeholder="User Name"
+                        />
+                      </div>
+
+                      <div class="form-group">
+                        <input
+                          class="form-control form-control-lg"
+                          type="email"
+                          placeholder="Email"
+                        />
+                      </div>
+
+                      <div class="form-group">
+                        <input
+                          class="form-control form-control-lg"
+                          type="password"
+                          placeholder="Password"
+                        />
+                      </div>
+
+                      <div class="form-group">
+                        <input
+                          class="form-control form-control-lg"
+                          type="password"
+                          placeholder="Confirm Password"
+                        />
+                      </div>
+
+                      <button
+                        type="button"
+                        class="btn btn-success btn-md btn-block"
+                      >
+                        Submit
+                      </button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!---------------------------------------- Explore Head----------------------------------------------------------- -->
 
 
-<section id="home-section">
-  <div class="dark-overlay"> <!--Out of bootstrap class-->
-    <div class="home-inner"> <!--out of bootstrap class for Using Padding Top-->
+
+
+    <section id="explore-head-section">
 
 
       <div class="container">
+        <div class="row">
 
-        <div class="row"> 
+          <div class="col text-center">
+          <div class="py-5">    <!--py-5= top bottom padding 5-->
+            <h1 class="display-4">Explore</h1>
 
-          
+            <div class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit ullam ex qui nulla autem consequuntur
+               eveniet aut modi dolore sapiente, soluta pariatur unde enim voluptatem fugit?</div>
+               <a href="#" class="btn btn-outline-secondary">Find out more!</a>
+          </div>   
 
 
-          <div class="col-lg-8 d-none d-lg-block">  <!--Block for Mobile device -->
-            <h1 class="display-4">Build <strong>Social Profiles</strong> and gain revenue and <strong>profilse</strong></h1>
-
-            <div class="d-flex flex-row">
-
-             <div class="align-self-start p-4">  <!--p-4 =Padding -->
-               <i class="fa fa-check"></i>
-
-             </div>
-
-             <div class="align-self-end p-4">
-             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-
-            </div>
-          </div>
-            <div class="d-flex flex-row">
-
-              <div class="align-self-start p-4">  <!--p-4 =Padding -->
-                <i class="fa fa-check"></i>
- 
-              </div>
- 
-              <div class="align-self-end p-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
- 
-             </div>
-            </div>
-             <div class="d-flex flex-row">
-
-              <div class="align-self-start p-4">  <!--p-4 =Padding -->
-                <i class="fa fa-check"></i>
- 
-              </div>
- 
-              <div class="align-self-end p-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
- 
-             </div>
-            </div>           
            
           </div>
+        </div>
 
 
 
 
 
-
-          <div class="col-lg-4 ">
-            
-            <div class="card bg-primary text-center card-form"> <!--CSS Class= Card Form for using opacity-->
-              <div class="card-body">
-                <h3>Sign Up Today</h3>
-                <p>Plsease fill out this form to register </p>
-             
-                <form action="">
-
-                  <div class="form-group">
-                    <input class="form-control form-control-lg" type="text" placeholder="User Name">
-
-                  </div>
-
-                  <div class="form-group">
-                    <input class="form-control form-control-lg" type="email" placeholder="Email">
-
-                  </div>
-
-                  <div class="form-group">
-                    <input class="form-control form-control-lg" type="password" placeholder="Password">
-
-                  </div>
-
-                  <div class="form-group">
-                    <input class="form-control form-control-lg" type="password" placeholder="Confirm Password">
-
-                  </div>
-
-                  <button type="button" class="btn btn-success btn-md btn-block">Submit</button>
-
-
-                </form>
+      </div>
+    </section>
 
 
 
+ <!---------------------------------------- Explore Section----------------------------------------------------------- -->
 
-                
-              </div>
+
+<section id="explore-section" class="bg-dark text-muted py-5">
+
+  <div class="container">
+
+    <div class="row">
+      <div class="col-md-6">
+        <img src="img/explore-section.jpg" alt="" class="img-fluid mb-3 rounded-circle">
+      </div>
+
+      <div class="col-md-6">
+        
+        <h3>Explore and Connect</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia incidunt, quam eius ab debitis quisquam possimus 
+          commodi accusantium nemo quibusdam, et nesciunt, impedit repellendus rem harum quidem expedita aliquam minus?</p>
+
+          
+          <div class="d-flex flex-row">
+            <div class="align-self-start p-4">
+           
+              <i class="fa fa-check"></i>
+            </div>
+
+            <div class="align-self-end p-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </div>
           </div>
 
 
+          <div class="d-flex flex-row">
+            <div class="align-self-start p-4">
+           
+              <i class="fa fa-check"></i>
+            </div>
 
-        </div>
-
+            <div class="align-self-end p-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </div>
+          </div>
+          
       </div>
-
-
     </div>
+
   </div>
+
 </section>
-
-
-
-
-
-
-
 
 
 
@@ -211,6 +275,4 @@
       crossorigin="anonymous"
     ></script>
   </body>
-
-
 </html>
