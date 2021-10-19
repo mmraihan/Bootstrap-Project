@@ -6,3 +6,19 @@ body{
     border-bottom: cornflowerblue 1px solid;
     opacity: 1;
 }
+
+#home-section{
+    background: url(img/Home-Background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 900px;
+}
+
+#home-section .dark-overlay{
+    background-color: rgb(0,0,0,0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 900px;
+}
