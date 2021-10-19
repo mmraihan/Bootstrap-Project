@@ -48,3 +48,11 @@ body{
     border-radius: 5px;
     font-size: 30px;
 }
+
+#create-section .fa{
+    color: blanchedalmond;
+    background: rgb(0, 73, 107);
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 30px;
+}
